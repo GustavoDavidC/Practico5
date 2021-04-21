@@ -49,3 +49,7 @@ public class Arreglo {
        
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master

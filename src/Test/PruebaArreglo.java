@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 package Test;
 import Entidades.Arreglo;
 
