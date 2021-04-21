@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Practico5">
+  <ClassDiagramComponents>
+    <Class name="Arreglo" package="Entidades" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="sumarLista" returnType="void" visibility="public" isStatic="true">
+          <Argument type="int" name="arr"/>
+        </Method>
+        <Method name="buscarMayor" returnType="int" visibility="public" isStatic="true">
+          <Argument type="int" name="arr"/>
+        </Method>
+        <Method name="cuentaVocales" returnType="int" visibility="public" isStatic="true">
+          <Argument type="String" name="vocales"/>
+        </Method>
+        <Method name="cuentaCaracter" returnType="int" visibility="public" isStatic="true">
+          <Argument type="String" name="cadena"/>
+          <Argument type="char" name="letra"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="PruebaArreglo" package="test" visibility="public" xPosition="482.0" yPosition="48.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation name="" source="test.PruebaArreglo" target="Entidades.Arreglo" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
