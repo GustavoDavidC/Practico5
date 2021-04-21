@@ -3,6 +3,7 @@ package Entidades;
 
 
 public class Arreglo {
+    
     public static void sumarLista(int arr[]){
        int suma=0;
         for(int i:arr){

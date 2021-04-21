@@ -2,7 +2,7 @@
 package Test;
 import Entidades.Arreglo;
 
-public class Test {
+public class PruebaArreglo {
 
     public static void main(String[] args) {
        
@@ -18,7 +18,7 @@ public class Test {
         
          Arreglo.cuentaVocales(vocales);
          
-         Arreglo.cuentaCaracter(vocales, 'a');
+         Arreglo.cuentaCaracter(vocales, 'r');
     }
     
 }
